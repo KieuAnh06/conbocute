@@ -1,0 +1,160 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #cfa4a4;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.contact-info {
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.banner {
+    background-color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.banner h1 {
+    margin: 0;
+}
+
+.banner p {
+    margin: 5px 0;
+}
+
+.banner-images img {
+    width: 1500px;
+    height: 300px;
+    margin: 2px;
+}
+
+nav {
+    background-color: #381414
+}
+ ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #111111;
+}
+
+main {
+    display: flex;
+    margin: 20px;
+}
+.contentchu{
+    width: 750px;
+    height: 1000px;
+    background-color:DarkGray;
+    float: center;
+ }
+.contentchu p{
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: 15px;
+ }
+
+aside {
+    width: 20%;
+    padding: 10px;
+}
+
+aside h2 {
+    font-size: 18px;
+}
+
+aside ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+aside ul ul {
+    padding-left: 20px;
+}
+
+aside ul li a {
+    text-decoration: none;
+    color: #000;
+    display: block;
+    padding: 5px 0;
+}
+
+aside ul li a:hover {
+    background-color: aqua;
+}
+
+.products {
+    width: 100%;
+    padding: 10px;
+}
+
+.products h2 {
+    font-size: 20px;
+    margin-top: 0;
+}
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.product-item {
+    width: 30%;
+    border:2px solid #F8F8FF;
+    padding: 5px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.product-item img {
+    max-width: 70%;
+    height: 170px;
+}
+
+.product-item p {
+    margin: 5px 0;
+}
+
+button {
+    background-color: #ff9800;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+
+
+nav B ul li  {
+    float: RIGHT;
+}
+
